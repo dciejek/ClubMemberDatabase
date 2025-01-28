@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scholarship Management</title>
+</head>
+<body>
+    <nav>
+        <a href="/add_member">Add Member</a>
+        <a href="/update_member">Update Member</a>
+        <a href="/remove_member">Remove Member</a>
+        <a href="/add_course">Add Course</a>
+        <a href="/seach_member_by_course">Search Members by Course</a>
+        <a href="/seach_course_by_member">Search for Courses by Member</a>
+        <a href="/display_members_by_major">Display Members by Major</a>
+        <a href="/display_members_by_minor">Display Members by Minor</a>
+        <a href="/declare_major">Declare Major</a>
+        <a href="/declare_minor">Declare Minor</a>
+        <a href="/drop_major">Drop Major</a>
+        <a href="/drop_minor">Drop Minor</a>
+        <a href="/search_credits_by_member">Seach For Credit Total By Member</a>
+        <a href="/display_all_member_credit">Display All Member Credit Total</a>
+    </nav>
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
