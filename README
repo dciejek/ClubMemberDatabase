@@ -1,0 +1,12 @@
+The following Python program can be used to access the academic histories of this club’s
+members in the scholarship database found in the scholarship_schema SQL file. To run the
+program, open the scholarship_schema.sql file. Run the script to load the database. Then, open
+the scholarship_objects.sql file and run all to load all database objects associated with
+scholarship_schema. Open and run the provided Python program. You will be prompted to enter
+your MySQL username and password. After doing so, you will arrive at the main menu, where
+you can select one of 16 different operations. Selecting one of the first 15 options will execute a
+function that interfaces with the database. After the function has completed, you will arrive back
+at the main menu. You may choose to repeat the same operation, select a new option, or close the
+program. Option 16 will terminate the connection to the database and close the program.
+
+Currently working on making a simple website to host the project
